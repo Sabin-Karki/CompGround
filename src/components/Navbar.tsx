@@ -1,7 +1,7 @@
 import React from "react";
 import { useDarkMode } from "../hooks/useDarkMode";
 
-const navbar:React.FC=()=>{
+const Navbar=()=>{
     const {toggleTheme}=useDarkMode();
     return(
      <nav className="bg-white dark:bg-neutral-900 text-black dark:text-white rounded-full px-6 py-3 shadow-md flex justify-between items-center">
@@ -13,4 +13,4 @@ const navbar:React.FC=()=>{
     </nav>
 )
 };
-export default navbar;
+export default Navbar;
